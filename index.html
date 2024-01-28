@@ -1,0 +1,82 @@
+
+<html>
+<head>
+	<title>In Sai's Kitchen</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	
+    <header>
+    
+    <!-- Main heading -->
+    <h1>In Sai's Kitchen</h1>
+    <h5>Mobile no.:0222-333245 ; Instagram:<a href="https://www.instagram.com/"><img src="instagram.png" width="22" height="22"></a>SAI_KITCHEN_2020</h5>
+    
+    </header>
+
+<nav>
+	<ul>
+        
+        <li><a href="MICROPROJECT2.HTML">Misal Pav</a></li>       
+        <li><a href="MICROPROJECT3.HTML">Pineapple Sheera</a></li>
+        <li><a href="MICROPROJECT4.HTML">Pav Bhaji</a></li>
+        <li><a href="MICROPROJECT5.HTML">Paneer Masala</a></li>
+        <li><a href="index.html" class="return-home">Return to Home</a></li>
+        <!-- <li><a href="coding.html">Photoes</a></li> -->
+    </ul>
+</nav>
+
+<hr>
+<main>
+    <!-- Welcome section -->
+    <section class="welcome-section">
+        <!-- Subheading -->
+        <h2>Watch Recipi on Youtube</h2>
+        <!-- Description text -->
+        <p>Select a Recipi to explore more.</p>
+
+        <!-- Container for video placeholders -->
+        <div class="video-skeleton">
+            <!-- Replace 'VIDEO_ID' with the actual YouTube video IDs -->
+            <!-- Three video iframes with YouTube video URLs -->
+            <iframe width="320" height="210" src="https://www.youtube.com/embed/0K5_06vxY28?si=sCXGmLYMviT1V5uG" frameborder="0" allowfullscreen></iframe>
+            <iframe width="320" height="210" src="https://www.youtube.com/embed/hjW7_41C21M?si=N7kabRC6pDqQm9Au" frameborder="0" allowfullscreen></iframe>
+            <iframe width="320" height="210" src="https://www.youtube.com/embed/ClH7QI02fNc?si=K4e7zZcoQMu_9GZI" frameborder="0" allowfullscreen></iframe>
+            <iframe width="320" height="210" src="https://www.youtube.com/embed/Cvnr-Log1m8?si=wEKZ8DPPfVt6BsoN"   frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+</main>
+<hr>
+<section class="review-section">
+        <!-- Subheading -->
+        <h2>FEEDBACK</h2>
+        <!-- Review form container -->
+        <div class="review-form">
+            <!-- Review form heading -->
+            <h4>Share your FEEDBACK</h4>
+            <!-- Form for submitting reviews -->
+            <form id="reviewForm">
+                <!-- Input field for name -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <!-- Textarea for review input -->
+                <label for="review">Your Review:</label>
+                <textarea id="review" name="review" rows="4" required></textarea>
+
+                <!-- Submit button -->
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+        <!-- Container for displaying reviews -->
+        <div id="reviews" class="reviews">
+            <!-- Student reviews will be dynamically added here using JavaScript -->
+        </div>
+    </section>
+
+<footer>
+    <!-- Copyright information -->
+    <p>&copy; 2024 In Sai's Kitchen. All rights reserved.</p>
+</footer>
+</body>
+</html>
